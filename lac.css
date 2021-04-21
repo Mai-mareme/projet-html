@@ -1,0 +1,41 @@
+h1{
+    width : 250px;
+    background-color: rgb(204,63,155);
+    color:white;
+    text-align: center;
+    font-size:1.7em;
+    font-weight : bold;
+    margin: auto;
+}
+.container{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:  
+    "text"
+    "image";
+    background: white;
+    text-align: center;
+}
+.titre{
+    grid-area: text;
+    padding-bottom : 0px;
+    margin-bottom: 0px;
+}
+.image{
+    grid-area: image;
+    padding-top:0px;
+}
+figure{
+    width : 100%;
+}
+h2{
+    text-align:center;
+    color:rgb(204,63,155);
+    text-decoration: underline;
+}
+p{width: 50%;
+text-align: justify;
+margin:auto;
+}
